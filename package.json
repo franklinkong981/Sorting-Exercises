@@ -1,0 +1,15 @@
+{
+  "name": "sorting-exercises",
+  "version": "1.0.0",
+  "description": "Exercise where I implement some common sorting algorithms such as bubble sort as merge sort.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
