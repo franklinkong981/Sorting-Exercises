@@ -6,12 +6,17 @@ function getDigit(num, digitIndex) {
   return num % 10;
 }
 
-function digitCount() {
-
+function digitCount(num) {
+  let numDigits = 0;
+  while (num != 0) {
+    numDigits++;
+    num = Math.floor(num / 10);
+  }
+  return numDigits;
 }
 
 function mostDigits() {
-  
+
 }
 
 function radixSort() {
