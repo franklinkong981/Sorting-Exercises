@@ -15,8 +15,15 @@ function digitCount(num) {
   return numDigits;
 }
 
-function mostDigits() {
-
+function mostDigits(numbers) {
+  let maxDigits = 0;
+  for (let number of numbers) {
+    numDigitsOfNumber = digitCount(number);
+    if (numDigitsOfNumber > maxDigits) {
+      maxDigits = numDigitsOfNumber;
+    }
+  }
+  return maxDigits;
 }
 
 function radixSort() {
